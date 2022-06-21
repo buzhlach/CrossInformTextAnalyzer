@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossInformTextAnalyzer", "TextAnalyzer\CrossInformTextAnalyzer.csproj", "{EA37A885-E924-4CBF-A428-F12A1D0C9FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossInformTextAnalyzer.Tests", "TextAnalyzerTests\CrossInformTextAnalyzer.Tests.csproj", "{4472FBBC-07CF-4309-8BA0-407AA377638B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA37A885-E924-4CBF-A428-F12A1D0C9FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA37A885-E924-4CBF-A428-F12A1D0C9FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA37A885-E924-4CBF-A428-F12A1D0C9FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA37A885-E924-4CBF-A428-F12A1D0C9FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4472FBBC-07CF-4309-8BA0-407AA377638B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4472FBBC-07CF-4309-8BA0-407AA377638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4472FBBC-07CF-4309-8BA0-407AA377638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4472FBBC-07CF-4309-8BA0-407AA377638B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0019A69C-4426-49A8-BB48-B46513F0CD63}
+	EndGlobalSection
+EndGlobal
